@@ -1317,6 +1317,7 @@ a {
   opacity: 0.68;
   font-size: 20px;
   line-height: 30px;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -2639,10 +2640,11 @@ a {
 
   .paragraph-card {
     min-width: 250px;
+    font-size: 16px;
   }
 
   .paragraph-desscription {
-    max-width: 700px;
+    max-width: 650px;
     min-width: 250px;
   }
 
@@ -3183,13 +3185,12 @@ a {
 
   .text-block {
     top: 100px;
-    margin-top: 31px;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
     opacity: 0.9;
-    font-size: 28px;
+    font-size: 24px;
     letter-spacing: 1px;
   }
 
@@ -3199,14 +3200,14 @@ a {
     right: 0%;
     bottom: auto;
     min-width: 260px;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    padding-right: 10px;
+    padding-left: 10px;
     opacity: 0.81;
+    font-size: 18px;
   }
 
   .paragraph-desscription {
+    max-width: 450px;
     margin-top: 76px;
   }
 
@@ -3441,6 +3442,26 @@ a {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+  }
+
+  .tabs-menu {
+    display: block;
+    font-size: 16px;
+  }
+
+  .tab-link-classes {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .tab-link-skills {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .tab-link-trait {
+    padding-right: 25px;
+    padding-left: 25px;
   }
 
   .right-block {
@@ -3801,21 +3822,24 @@ a {
     top: 90px;
     max-width: 60%;
     min-width: 190px;
+    margin-top: -15px;
     padding-right: 20px;
     padding-left: 29px;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 16px;
     letter-spacing: 1px;
   }
 
   .paragraph-desscription {
+    max-width: 260px;
     margin-top: 30px;
     padding-right: 15px;
     padding-left: 15px;
+    font-size: 14px;
     letter-spacing: 1px;
   }
 
@@ -4018,6 +4042,10 @@ a {
     font-size: 30px;
   }
 
+  .tab-paragraph {
+    font-size: 14px;
+  }
+
   .tabs {
     width: 270px;
     margin-right: auto;
@@ -4175,3 +4203,4 @@ a {
     margin-top: -100px;
   }
 }
+
