@@ -3972,11 +3972,6 @@ a {
     align-items: center;
   }
 
-  .html-embed {
-    display: none;
-    margin-top: -93px;
-  }
-
   .slider-card-mobile {
     height: 360px;
   }
@@ -4180,4 +4175,3 @@ a {
     margin-top: -100px;
   }
 }
-
