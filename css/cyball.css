@@ -3415,6 +3415,7 @@ a {
   }
 
   .image-frame {
+    display: none;
     overflow: hidden;
   }
 
@@ -4138,6 +4139,10 @@ a {
 
   .div-block-16 {
     border-radius: 10px;
+  }
+
+  .image-frame {
+    display: none;
   }
 
   .html-embed-2 {
