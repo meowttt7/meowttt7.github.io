@@ -3406,6 +3406,10 @@ a {
     overflow: hidden;
   }
 
+  .marketplace-link {
+    background-position: 50% 75%;
+  }
+
   .youtube {
     border-radius: 25px;
   }
@@ -3950,7 +3954,7 @@ a {
   }
 
   .hero-pics {
-    overflow: hidden;
+    overflow: visible;
     height: 10vh;
     min-height: 250px;
     background-color: rgba(0, 0, 0, 0.5);
@@ -4131,7 +4135,7 @@ a {
   }
 
   .marketplace-link {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .youtube {
